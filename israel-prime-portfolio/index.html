@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Israel Prime - Professional Website Design, Graphic Design & Business Automation Solutions for businesses, real estate investors, and wholesalers.">
+    <meta name="keywords" content="Israel Prime, web design, graphic design, business automation, real estate marketing, lead generation, website developer">
+    
+    <!-- SEO Title of the Website -->
+    <title>Israel Prime | Helping Businesses Grow Online</title>
+    
+    <!-- Google Fonts: Outfit (Clean, premium font for headlines and body text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Link to our CSS file (This handles all colors, fonts, margins, and designs) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         1. HEADER & NAVIGATION BAR
+         ========================================== -->
+    <header id="header" class="site-header">
+        <div class="container header-container">
+            <!-- Logo Section. Edit your brand name here. -->
+            <a href="#" class="logo">
+                Israel<span>Prime</span>
+            </a>
+            
+            <!-- Menu Links. Edit the links and text here. -->
+            <nav id="nav-menu" class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- CTA Button on the top right -->
+            <div class="header-cta">
+                <a href="#contact" class="btn btn-primary btn-sm">Get Started</a>
+            </div>
+
+            <!-- Hamburger Button for Mobile screens -->
+            <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==========================================
+             2. HERO / HOME SECTION
+             ========================================== -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Professional Solutions</span>
+                    <!-- Headline: Edit this to change your main greeting -->
+                    <h1 class="hero-title">Helping Businesses <br><span class="accent-text">Grow Online</span></h1>
+                    <!-- Subheading: Edit this to change your business description -->
+                    <p class="hero-subtitle">Professional Websites, Graphic Design & Automation Solutions for Businesses.</p>
+                    
+                    <!-- Call-To-Action Buttons. Edit button texts and links here. -->
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                
+                <!-- Hero Image or Visual Graphic. This is styled dynamically in CSS. -->
+                <div class="hero-visual">
+                    <div class="hero-circle-glow"></div>
+                    <div class="hero-card-floating card-web">
+                        <div class="floating-icon">💻</div>
+                        <div>
+                            <h4>Web Design</h4>
+                            <p>Premium & Responsive</p>
+                        </div>
+                    </div>
+                    <div class="hero-card-floating card-auto">
+                        <div class="floating-icon">⚡</div>
+                        <div>
+                            <h4>Automation</h4>
+                            <p>Save Hours Daily</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             3. ABOUT ME SECTION
+             ========================================== -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <!-- Profile Photo. Edit the image path here. -->
+                    <div class="about-image-wrapper">
+                        <div class="about-image-border">
+                            <img src="images/profile.jpg" alt="Israel Prime Profile Photo" class="about-image">
+                        </div>
+                    </div>
+                    
+                    <!-- About Text & Details. Edit your description and list items here. -->
+                    <div class="about-content">
+                        <h3 class="about-tagline">Israel Prime</h3>
+                        <p class="about-bio-subtitle">Web Designer • Graphic Designer • Automation Specialist</p>
+                        
+                        <p class="about-text">
+                            Hi, I'm Israel Prime. I help businesses create a strong online presence through professional websites, creative graphic design, and smart automation systems that attract customers and increase growth.
+                        </p>
+                        
+                        <p class="about-text">
+                            Whether you are a real estate investor, wholesaler, entrepreneur, or small business owner, my goal is to design systems and aesthetics that build trust with your audience and turn visitors into paying clients.
+                        </p>
+
+                        <!-- Highlights list. Edit items here. -->
+                        <ul class="about-bullets">
+                            <li><span class="bullet-check">✓</span> <strong>Result-Driven:</strong> Focused on helping your business grow.</li>
+                            <li><span class="bullet-check">✓</span> <strong>Automated:</strong> Free up your time with intelligent workflows.</li>
+                            <li><span class="bullet-check">✓</span> <strong>Tailored Designs:</strong> Built specifically to fit your brand identity.</li>
+                        </ul>
+                        
+                        <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             4. SERVICES SECTION
+             ========================================== -->
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What I Do Best</span>
+                    <h2 class="section-title">My Services</h2>
+                </div>
+                
+                <!-- Services Grid. 6 Cards representing your services. -->
+                <div class="services-grid">
+                    
+                    <!-- Service 1: Website Design -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <!-- Custom Inline SVG Icon (Computer Screen) -->
+                            <svg class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3>Website Design</h3>
+                        <p>Beautiful, fast-loading, and mobile-friendly custom websites tailored to convert visitors into clients.</p>
+                    </div>
+
+                    <!-- Service 2: Landing Page Design -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <!-- Custom Inline SVG Icon (Target/Conversion Page) -->
+                            <svg class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3>Landing Page Design</h3>
+                        <p>High-converting single-page websites engineered for promotions, product launches, or capturing leads.</p>
+                    </div>
+
+                    <!-- Service 3: Graphic Design -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <!-- Custom Inline SVG Icon (Pen Tool / Creativity) -->
+                            <svg class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                            </svg>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Stunning brand identities, logos, brochures, wholesalers' marketing flyers, and digital marketing banners.</p>
+                    </div>
+
+                    <!-- Service 4: Business Automation -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <!-- Custom Inline SVG Icon (Gears / Automation) -->
+                            <svg class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3>Business Automation</h3>
+                        <p>Smart integrations, autoresponders, CRM setups, and workflows that automate operations and save valuable time.</p>
+                    </div>
+
+                    <!-- Service 5: Lead Generation Solutions -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <!-- Custom Inline SVG Icon (Funnel/Magnet) -->
+                            <svg class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <h3>Lead Generation Solutions</h3>
+                        <p>Engineered lead capture funnels, email sequences, opt-in designs, and databases to build a robust sales pipeline.</p>
+                    </div>
+
+                    <!-- Service 6: Real Estate Marketing Support -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <!-- Custom Inline SVG Icon (Home / Building) -->
+                            <svg class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                            </svg>
+                        </div>
+                        <h3>Real Estate Marketing</h3>
+                        <p>Wholesale websites, cash-buyer squeeze pages, property listing designs, and automated marketing flows for investors.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             5. PORTFOLIO SECTION
+             ========================================== -->
+        <section id="portfolio" class="portfolio-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">My Recent Work</span>
+                    <h2 class="section-title">Portfolio Gallery</h2>
+                </div>
+
+                <!-- Portfolio Filters. Clicking these will filter project cards. -->
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Websites</button>
+                    <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                    <button class="filter-btn" data-filter="automation">Automations</button>
+                </div>
+
+                <!-- Portfolio Grid containing projects (labeled as samples) -->
+                <div class="portfolio-grid">
+                    
+                    <!-- Project 1: Real Estate Investor Site (Sample) -->
+                    <div class="portfolio-item web" data-category="web">
+                        <div class="portfolio-image-box">
+                            <img src="images/portfolio-web.png" alt="Real Estate Wholesaler Website" class="portfolio-img">
+                            <div class="portfolio-hover-overlay">
+                                <span class="portfolio-zoom-icon">🔗</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag">Web Design (Sample Project)</span>
+                            <h3>REI Buyer Acquisition Site</h3>
+                            <p>A high-performance lead generation landing page for local real estate wholesaling operations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Business Brand Identity (Sample) -->
+                    <div class="portfolio-item graphic" data-category="graphic">
+                        <div class="portfolio-image-box">
+                            <img src="images/portfolio-graphic.png" alt="Brand Identity Design Showcase" class="portfolio-img">
+                            <div class="portfolio-hover-overlay">
+                                <span class="portfolio-zoom-icon">🎨</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag">Graphic Design (Sample Project)</span>
+                            <h3>Vanguard Real Estate Brand</h3>
+                            <p>Complete logo design, typography system, business card layout, and color theme setup.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Automated Wholesaling CRM (Sample) -->
+                    <div class="portfolio-item automation" data-category="automation">
+                        <div class="portfolio-image-box">
+                            <img src="images/portfolio-auto.png" alt="CRM Automation Flow Diagram" class="portfolio-img">
+                            <div class="portfolio-hover-overlay">
+                                <span class="portfolio-zoom-icon">⚙️</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag">Automation (Sample Project)</span>
+                            <h3>Zapier CRM Lead Auto-responder</h3>
+                            <p>Automated integration syncing Facebook Leads directly to Podio CRM, triggering SMS alerts.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             6. WHY WORK WITH ME SECTION
+             ========================================== -->
+        <section id="why-us" class="why-us-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">The Israel Prime Advantage</span>
+                    <h2 class="section-title">Why Work With Me</h2>
+                </div>
+
+                <!-- Why Choose Me Grid -->
+                <div class="why-us-grid">
+                    
+                    <!-- Point 1 -->
+                    <div class="why-card">
+                        <div class="why-number">01</div>
+                        <h3>Professional Designs</h3>
+                        <p>Modern, trustworthy aesthetics designed to make your business stand out from competitors.</p>
+                    </div>
+
+                    <!-- Point 2 -->
+                    <div class="why-card">
+                        <div class="why-number">02</div>
+                        <h3>Mobile-friendly</h3>
+                        <p>Every website works beautifully on phones, tablets, and desktops to capture mobile traffic.</p>
+                    </div>
+
+                    <!-- Point 3 -->
+                    <div class="why-card">
+                        <div class="why-number">03</div>
+                        <h3>Fast Delivery</h3>
+                        <p>Clean workflows and rapid implementation ensure your projects launch on time, without delays.</p>
+                    </div>
+
+                    <!-- Point 4 -->
+                    <div class="why-card">
+                        <div class="why-number">04</div>
+                        <h3>Business-focused</h3>
+                        <p>I build solutions specifically geared to capture leads, save hours, and increase conversion rates.</p>
+                    </div>
+
+                    <!-- Point 5 -->
+                    <div class="why-card">
+                        <div class="why-number">05</div>
+                        <h3>Ongoing Support</h3>
+                        <p>Always here to answer questions, debug settings, and update content even after launching.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             7. TESTIMONIALS SECTION
+             ========================================== -->
+        <section id="testimonials" class="testimonials-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Client Success Stories</span>
+                    <h2 class="section-title">Client Reviews</h2>
+                </div>
+
+                <!-- Testimonials Slider Container -->
+                <div class="testimonials-slider-container">
+                    <div class="testimonials-wrapper">
+                        
+                        <!-- Testimonial 1 (Placeholder) -->
+                        <div class="testimonial-slide active">
+                            <p class="testimonial-text">
+                                "Israel designed a wholesale website for my real estate investing business, and it completely changed my workflow. We are capturing motivated seller leads and cash buyer signups easily now. Highly professional work!"
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Marcus K.</h4>
+                                    <span>Real Estate Wholesaler (Sample Review)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 (Placeholder) -->
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">
+                                "Our business automation systems were a mess. Israel came in, linked our landing pages to our CRM and email marketing, and automated everything. He saved our small business 10+ hours a week!"
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Sarah L.</h4>
+                                    <span>E-commerce Entrepreneur (Sample Review)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <!-- Navigation arrows for testimonials -->
+                    <div class="testimonial-nav">
+                        <button id="prev-test" class="testimonial-arrow-btn" aria-label="Previous Testimonial">←</button>
+                        <button id="next-test" class="testimonial-arrow-btn" aria-label="Next Testimonial">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             8. CONTACT SECTION
+             ========================================== -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Start a Project</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                </div>
+
+                <div class="contact-grid">
+                    
+                    <!-- Contact Cards & Info (Left Column) -->
+                    <div class="contact-info-column">
+                        <h3>Contact Information</h3>
+                        <p class="contact-description">Ready to take your online presence to the next level? Reach out through any channel below or submit the form.</p>
+                        
+                        <div class="info-links-wrapper">
+                            <!-- WhatsApp Button. Edit link & phone number here. -->
+                            <a href="https://wa.me/2348084143527?text=Hi%20Israel,%20I%20am%20interested%20in%20your%20services!" target="_blank" class="contact-info-card wa-card">
+                                <div class="icon-box">💬</div>
+                                <div>
+                                    <span>WhatsApp Direct</span>
+                                    <h4>08084143527</h4>
+                                </div>
+                            </a>
+
+                            <!-- Email Link. Edit address here. -->
+                            <a href="mailto:israelprime205@gmail.com" class="contact-info-card mail-card">
+                                <div class="icon-box">✉️</div>
+                                <div>
+                                    <span>Send an Email</span>
+                                    <h4>israelprime205@gmail.com</h4>
+                                </div>
+                            </a>
+
+                            <!-- Facebook Page Link. Edit profile link here. -->
+                            <a href="https://facebook.com/israelprime.design" target="_blank" class="contact-info-card fb-card">
+                                <div class="icon-box">👥</div>
+                                <div>
+                                    <span>Facebook Connect</span>
+                                    <h4>Israel Prime Design</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (Right Column). Forms submit client details to you. -->
+                    <div class="contact-form-column">
+                        <form id="portfolio-contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="form-name">Your Name</label>
+                                <input type="text" id="form-name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Your Email Address</label>
+                                <input type="email" id="form-email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-service">Required Service</label>
+                                <select id="form-service" required>
+                                    <option value="" disabled selected>Select a Service</option>
+                                    <option value="website">Website Design</option>
+                                    <option value="landing-page">Landing Page Design</option>
+                                    <option value="graphic">Graphic Design</option>
+                                    <option value="automation">Business Automation</option>
+                                    <option value="lead-gen">Lead Generation Solutions</option>
+                                    <option value="real-estate">Real Estate Marketing Support</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Tell Me About Your Project</label>
+                                <textarea id="form-message" rows="5" required placeholder="Details about your website, design needs, or workflow automation..."></textarea>
+                            </div>
+                            
+                            <!-- Form submission feedback -->
+                            <div id="form-feedback" class="form-feedback"></div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block">Send Message 🚀</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==========================================
+         9. FOOTER
+         ========================================== -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    Israel<span>Prime</span>
+                </a>
+                <p>Helping real estate investors, small businesses, and entrepreneurs grow their brand online.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Connect With Me</h4>
+                <!-- Social media icons. Edit links here. -->
+                <div class="social-icons">
+                    <a href="https://wa.me/2348084143527" target="_blank" aria-label="WhatsApp">📱</a>
+                    <a href="https://facebook.com/israelprime.design" target="_blank" aria-label="Facebook">📘</a>
+                    <a href="mailto:israelprime205@gmail.com" aria-label="Email">📧</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Israel Prime. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript file (Add functional code in step 7) -->
+    <script src="app.js"></script>
+</body>
+</html>
